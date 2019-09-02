@@ -4,10 +4,11 @@ module.exports = {
 
   file: 'mockFile.txt',
   tabs: {
-    ordersHearing: 'Orders and hearing',
+    orders: 'Orders',
+    hearing: 'Hearing',
     casePeople: 'People in the case',
     legalBasis: 'Legal basis',
-    documents: 'cut-tabs>div>ul>li>a[href*=Documents]',
+    documents: 'Documents',
   },
   actionsDropdown: '.ccd-dropdown',
   goButton: 'Go',
@@ -20,6 +21,6 @@ module.exports = {
   },
 
   selectTab(tab) {
-    I.click(tab);
+    I.click(tab, '.tabs .tabs-list');
   },
 };
