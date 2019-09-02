@@ -21,7 +21,6 @@ import uk.gov.hmcts.reform.pdf.generator.HTMLToPDFConverter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.UUID;
 
 @Service
