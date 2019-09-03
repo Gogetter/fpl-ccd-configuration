@@ -28,7 +28,6 @@ import uk.gov.hmcts.reform.fpl.service.UserDetailsService;
 import uk.gov.hmcts.reform.fpl.service.email.content.TornadoDocumentTemplates;
 import uk.gov.hmcts.reform.fpl.validators.interfaces.EPOGroup;
 
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.ZoneId;
